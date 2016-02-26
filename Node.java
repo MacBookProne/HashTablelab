@@ -1,34 +1,17 @@
-package hashtablelab;
-
+package hashtable_lab;
 
 /**
  *
  * @author justinodea
  */
-
-class Node {
-
-   
-    // public double; // data item
-    public int value;
-    public Node leftChild; // this node's left child
-    public Node rightChild; // this node's right child
+public class Node { //created exstatance of node.  
+    public Node rightChild; //estabishing a new public node 
+    public Node leftChild; 
+    public int value = 0; //will return a value 
     
     
-    //constructor
-    public Node(int input){
-        value = input;
-    }
-}
-
-    /*public void displayNode() // display ourself
-    {
-        System.out.print('{');
-        
-        System.out.print(", ");
-        // System.out.print(dData);
-      
-        System.out.print("} ");
-    }
- // end class Node
-*/
+    public Node(int value) // create a node tha has access to its value. 
+    {       
+            this.value= value; //will be the possible value of node 
+    } //end node()
+}//end class 
